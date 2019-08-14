@@ -23,9 +23,9 @@ def callback():
     user = decoded["events"][0]['replyToken']
     #userText = decoded["events"][0]['message']['text']
      if (userText == 'user') :
-        sendtext(user,'OTHINIR')
+        sendText(user,'OTHINIR')
     elif (userText == 'password') :
-        sendtext(user,'เสือก')
+        sendText(user,'เสือก')
     else :
         sendText(user'error')
 
