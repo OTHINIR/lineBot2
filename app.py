@@ -21,9 +21,9 @@ def callback():
     json_line = json.dumps(json_line)
     decoded = json.loads(json_line)
     user = decoded["events"][0]['replyToken']
-    #userText = decoded["events"][0]['message']['text']
-    #sendText(userText == 'user') :
-      if (userText == 'user') :
+    userText = decoded["events"][0]['message']['text']
+    #sendText(userText,'user')
+    if (userText == 'user') :
         sendText(user,'OTHINIR')
     elif (userText == 'password') :
         sendText(user,'เสือก')
