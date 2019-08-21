@@ -28,7 +28,7 @@ def callback():
     elif (userText == 'password') :
         sendText(user,'เสือก')
     else :
-        sendText(user'error')
+        sendText(user,'error')
 
     return '',200
 
