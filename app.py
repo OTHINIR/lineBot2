@@ -28,9 +28,9 @@ def callback():
     if (userText == 'บอกมา') :
         sendText(user,'บอกไร')
     elif (userText == 'ทำไร') :
-        sendText(user,'เสือก')
+        sendText(user,'อัจจรุด')
     else :
-        sendText(user,'ล้มเหลวในข้อมูลเขียนดีดีหน่อยดิไอ้เด็กถุงยางเเตก')
+        sendText(user,'ไม่มีคำนี้อยู่ในสารบัญ')
 
     return '',200
 
